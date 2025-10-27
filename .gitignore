@@ -1,0 +1,76 @@
+# -------------------------------
+#  Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.db
+*.log
+
+# -------------------------------
+#  Virtual Environments
+# -------------------------------
+.env
+.env.*
+venv/
+env/
+.venv/
+.venv*/ 
+
+# -------------------------------
+# Data / Models / Cache
+# -------------------------------
+*.pkl
+*.joblib
+*.sav
+*.npy
+*.npz
+*.csv
+*.xlsx
+*.h5
+*.json
+!mappings.json    # keep mappings.json only
+
+# -------------------------------
+#  IDE / Editors
+# -------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------------
+#  Build / Distribution
+# -------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# -------------------------------
+#  Secrets
+# -------------------------------
+*.pem
+*.key
+*.crt
+*.token
+*.secret
+
+# -------------------------------
+#  Ollama / Models
+# -------------------------------
+~/
+.ollama/
+
+# -------------------------------
+#  Misc
+# -------------------------------
+.DS_Store
+Thumbs.db
+*.zip
+*.tar.gz
+*.bak
+*.tmp
